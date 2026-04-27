@@ -3,6 +3,8 @@
 
 A dataset and analysis of USPTO patent applications filed by Historically Black Colleges and Universities (HBCUs), covering 21 institutions from 2001–2025. This research was conducted by [Arrowpoint Labs](https://arrowpointlabs.com) to assess innovation output and commercialization potential across the HBCU ecosystem.
 
+**This analysis was conducted on November 20, 2025.**
+
 ---
 
 ## Dataset Overview
