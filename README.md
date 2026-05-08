@@ -12,38 +12,40 @@ A dataset and analysis of USPTO patent applications filed by Historically Black 
 | Metric | Value |
 |--------|-------|
 | Institutions covered | 21 |
-| Total patent applications | 1,441 |
+| Total patent applications | 1,106 |
 | Date range | 2001–2025 |
 | Data source | USPTO Patent Center |
 | Classification system | CPC (Cooperative Patent Classification) |
 
 ### Institutions Included
 
-All R1, R2, and aspiring R2 HBCUs with documented research and PhD output:
+R1, R2, and aspiring R2 HBCUs with documented research and PhD output:
 
-| University | Patent Count | Earliest Filing | Latest Filing |
-|------------|-------------|-----------------|---------------|
-| Morehouse School of Medicine | 218 | 3/20/2003 | 3/18/2025 |
-| Howard University | 196 | 10/31/2008 | 4/22/2025 |
-| Florida A&M University | 119 | 9/7/2004 | 3/13/2025 |
-| North Carolina A&T State University | 100 | 11/27/2002 | 4/25/2025 |
-| Morgan State University | 94 | 10/11/2012 | 10/10/2024 |
-| Xavier University of Louisiana | 64 | 1/21/2005 | 9/20/2024 |
-| Meharry Medical College | 61 | 4/4/2002 | 4/21/2025 |
-| Tuskegee University | 54 | 7/7/2011 | 1/23/2024 |
-| North Carolina Central University | 38 | 2/10/2006 | 4/30/2025 |
-| Hampton University | 32 | 6/21/2001 | 6/27/2022 |
-| Clark Atlanta University | 26 | 5/3/2007 | 10/7/2024 |
-| Jackson State University | 21 | 7/23/2001 | 2/4/2025 |
-| Texas Southern University | 20 | 12/26/2007 | 4/18/2024 |
-| Fayetteville State University | 17 | 12/10/2009 | 9/27/2022 |
-| Delaware State University | 16 | 10/4/2007 | 12/16/2024 |
-| University of the District of Columbia | 7 | 4/8/2022 | 10/27/2023 |
-| Norfolk State University | 6 | 12/11/2006 | 8/7/2019 |
-| University of Maryland Eastern Shore | 6 | 3/6/2013 | 10/15/2020 |
-| Southern University and A&M College | 5 | 5/19/2016 | 2/6/2024 |
-| Morehouse College | 3 | 5/18/2015 | 3/12/2021 |
-| Bowie State University | 3 | 4/29/2002 | 12/15/2022 |
+| University | R1/R2/Emerging | Patent Count | Earliest Filing | Latest Filing |
+|------------|---------------|-------------|-----------------|---------------|
+| Morehouse School of Medicine | Medical | 218 | 3/20/2003 | 3/18/2025 |
+| Howard University | R1 | 196 | 10/31/2008 | 4/22/2025 |
+| Florida A&M University | R2 | 119 | 9/7/2004 | 3/13/2025 |
+| North Carolina A&T State University | R2 | 100 | 11/27/2002 | 4/25/2025 |
+| Morgan State University | R2 | 94 | 10/11/2012 | 10/10/2024 |
+| Xavier University of Louisiana | Emerging | 64 | 1/21/2005 | 9/20/2024 |
+| Meharry Medical College | Medical | 61 | 4/4/2002 | 4/21/2025 |
+| Tuskegee University | Emerging | 54 | 7/7/2011 | 1/23/2024 |
+| North Carolina Central University | Emerging | 38 | 2/10/2006 | 4/30/2025 |
+| Hampton University | R2 | 32 | 6/21/2001 | 6/27/2022 |
+| Clark Atlanta University | R2 | 26 | 5/3/2007 | 10/7/2024 |
+| Jackson State University | R2 | 21 | 7/23/2001 | 2/4/2025 |
+| Texas Southern University | R2 | 20 | 12/26/2007 | 4/18/2024 |
+| Fayetteville State University | Emerging | 17 | 12/10/2009 | 9/27/2022 |
+| Delaware State University | R2 | 16 | 10/4/2007 | 12/16/2024 |
+| University of the District of Columbia | Emerging | 7 | 4/8/2022 | 10/27/2023 |
+| Norfolk State University | Emerging | 6 | 12/11/2006 | 8/7/2019 |
+| University of Maryland Eastern Shore | Emerging | 6 | 3/6/2013 | 10/15/2020 |
+| Southern University and A&M College | R2 | 5 | 5/19/2016 | 2/6/2024 |
+| Morehouse College | Emerging | 3 | 5/18/2015 | 3/12/2021 |
+| Bowie State University | Emerging | 3 | 4/29/2002 | 12/15/2022 |
+
+*R1 = Carnegie R1 research university. R2 = Carnegie R2 research university. Emerging = institutions with documented R&D expenditure and PhD output working toward R2 classification. Medical = specialized medical schools included for their research output.*
 
 ### Technology Areas
 
@@ -71,13 +73,21 @@ Patent activity is classified using CPC codes and mapped to the following techno
 
 Health sciences dominate the portfolio, with Medical Science/Healthcare, Biochemistry/Biotechnology, and Organic Chemistry together accounting for nearly **50% of all patents**.
 
+The Other Technologies category (176 patents, 12.2%) is a long tail of CPC subclasses that each appear too infrequently to warrant their own named bucket. Rather than a single coherent field, it represents genuine breadth across the HBCU research portfolio. The major clusters within it are:
+Energy & Combustion  - CPC codes F23G, F23C, C10L, C10G, F03D, F05B
+Automation & Control Systems — G05D, G05B, G05F, 
+Specialty Fluids & Lubricants — C10M
+Refrigeration & Thermal Systems — F25D, F25B
+Advanced Manufacturing & Coatings — B33Y, B05D, B05B, F16H
+Aerospace & Propulsion — F02K, B05B
+Rare Earth & Magnetic Separation — B03C
+Other Miscellaneous — Cleaning systems (B08B), specialty dyes and luminescent materials (C09K, C09B), fiber manufacturing (D01F), waste handling (B65F), safety tracking systems (G08B), and a small number of cross-reference legacy codes (Y10T, Y10S) used by USPTO for older patent classifications.
 ---
 
 ## Files
 
 ```
-├── hbcu_patents_cleaned.json        # Full patent application records (1,441 records, JSONL format)
-├── hbcu_applications.json           # Subset with enriched fields including abstracts and CPC classifications
+├── hbcu_patents.json                # Full patent application records (1,106 records, JSONL format)
 ├── patent_count_by_university.csv   # Patent counts per institution with date ranges
 ├── patents_by_year.csv              # Annual filing counts from 2001–2025
 ├── cpc_subclass.csv                 # Patent counts by technology area
